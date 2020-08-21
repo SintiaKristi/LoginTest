@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteLogin" time="119.636" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuiteLogin" tests="1" failures="0" errors="0" time="119.636" timestamp="2020-08-21 11:03:32" hostname="krispty - sisin-PC" id="Test Suites/TestSuiteLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/krispty/Katalon Studio/Testing Satu/Reports/20200821_110315/TestSuiteLogin/20200821_110315"/>
+         <property name="logFiles" value="/home/krispty/Katalon Studio/Testing Satu/Reports/20200821_110315/TestSuiteLogin/20200821_110315/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="krispty - sisin-PC"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="114a3a2fd12dd3a1d51f72e4b2029bc3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/LoginTest" time="115.483" classname="Test Cases/LoginTest" status="PASSED">
+         <system-out><![CDATA[2020-08-21 11:03:34 - [TEST_CASE][PASSED] - Test Cases/LoginTest: Test Cases/LoginTest
+
+2020-08-21 11:03:35 - [TEST_STEP][PASSED] - openBrowser("http://www.phptravels.net/login"): Browser is opened with url: 'http://www.phptravels.net/login'
+
+2020-08-21 11:03:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-21 11:03:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-21 11:05:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.phptravels.net/login'
+
+2020-08-21 11:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmailObject"), "test@test.com"): Text 'test@test.com' is set on object 'Object Repository/EmailObject'
+
+2020-08-21 11:05:15 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/EmailObject'
+
+2020-08-21 11:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PasswordObject"), "test"): Text 'test' is set on object 'Object Repository/PasswordObject'
+
+2020-08-21 11:05:16 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/PasswordObject'
+
+2020-08-21 11:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginButtonObject")): Object: 'Object Repository/LoginButtonObject' is clicked on
+
+2020-08-21 11:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButtonObject' is clicked on
+
+2020-08-21 11:05:18 - [TEST_STEP][PASSED] - errormessage = getText(findTestObject("Object Repository/MessageObject")): Text of object 'Object Repository/MessageObject' is: 'Invalid Email or Password'
+
+2020-08-21 11:05:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/MessageObject' is: 'Invalid Email or Password'
+
+2020-08-21 11:05:19 - [TEST_STEP][PASSED] - verifyEqual(errormessage, "Invalid Email or Password"): Actual object 'Invalid Email or Password' and expected object 'Invalid Email or Password' are equal
+
+2020-08-21 11:05:20 - [MESSAGE][PASSED] - Actual object 'Invalid Email or Password' and expected object 'Invalid Email or Password' are equal
+
+2020-08-21 11:05:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-21 11:05:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-21 11:03:32 - [TEST_SUITE][PASSED] - TestSuiteLogin: Test Cases/LoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

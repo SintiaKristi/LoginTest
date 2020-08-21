@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteLogin,Chrome 84.0.4147.125,,,2020-08-21 11:03:32,2020-08-21 11:05:29,1m - 56.968s,PASSED
+,,,,,,,
+Test Cases/LoginTest,Chrome 84.0.4147.125,,,2020-08-21 11:03:34,2020-08-21 11:05:29,1m - 55.483s,PASSED
+"openBrowser(""http://www.phptravels.net/login"")",Chrome 84.0.4147.125,,,2020-08-21 11:03:35,2020-08-21 11:05:05,1m - 30.227s,PASSED
+"setText(findTestObject(""Object Repository/EmailObject""), ""test@test.com"")",Chrome 84.0.4147.125,,,2020-08-21 11:05:05,2020-08-21 11:05:15,10.062s,PASSED
+"setText(findTestObject(""Object Repository/PasswordObject""), ""test"")",Chrome 84.0.4147.125,,,2020-08-21 11:05:15,2020-08-21 11:05:17,1.514s,PASSED
+"click(findTestObject(""Object Repository/LoginButtonObject""))",Chrome 84.0.4147.125,,,2020-08-21 11:05:17,2020-08-21 11:05:18,1.463s,PASSED
+"errormessage = getText(findTestObject(""Object Repository/MessageObject""))",Chrome 84.0.4147.125,,,2020-08-21 11:05:18,2020-08-21 11:05:19,0.997s,PASSED
+"verifyEqual(errormessage, ""Invalid Email or Password"")",Chrome 84.0.4147.125,,,2020-08-21 11:05:19,2020-08-21 11:05:20,0.567s,PASSED
+closeBrowser(),Chrome 84.0.4147.125,,,2020-08-21 11:05:20,2020-08-21 11:05:29,9.572s,PASSED
